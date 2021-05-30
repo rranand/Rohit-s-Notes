@@ -1,0 +1,88 @@
+.parent_div {
+      margin-top: 50px;
+      display: grid;
+      place-items: center;
+      padding: 15px;
+}
+
+.child_div {
+      border-radius: 9px;
+      box-shadow: 1px 1px 7px 7px #6e8faa;
+      height: 250px;
+}
+
+.child_div form input {
+      margin: 0;
+      padding: 10px;
+      width: 527px;
+      line-height: 30px;
+      border: none;
+      border-radius: 9px;
+      outline: none;
+}
+
+.child_div form textarea {
+      border: none;
+      border-top: 1px solid #31688a;
+      padding: 10px;
+      font-family: 'Exo', sans-serif;
+      font-weight: bold;
+      resize: none;
+      outline: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: -1;
+}
+
+.child_div form button {
+      position: relative;
+      top: -25px;
+      left: -12px;
+      background: linear-gradient(to right, #076585, #264a67);
+      height: 65px;
+      width: 65px;
+      color: white;
+      float: right;
+      cursor: pointer;
+      border: none;
+      border-radius: 50%;
+      z-index: 1;
+}
+
+.outer {
+      position: relative;
+      margin: 0;
+      padding: 0;
+      width: 70px;
+      height: 70px;
+      background: linear-gradient( #14557e 50%, #E4E5E6 50%);
+      border-radius: 50%;
+      float: right;
+      top: -28px;
+      left: 56px;
+}
+
+.spinWheel {
+      animation-name: round;
+      animation-duration: 0.5s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+}
+
+@keyframes round {
+      0% {
+            transform: rotate(0deg);
+      }
+      100% {
+            transform: rotate(360deg);
+      }
+}
+
+.main {
+      margin-top: 80px;
+      padding: 15px;
+      display: block;
+      text-align: center;
+      margin-bottom: 90px;
+}

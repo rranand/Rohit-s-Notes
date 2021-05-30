@@ -1,0 +1,48 @@
+.columns {
+      display: inline-block;
+      width: 500px;
+      height: 270px;
+      border: none;
+      border-radius: 9px;
+      box-shadow: 4px 4px 4px 4px #6e8faa;
+      margin: 15px;
+}
+
+.columns textarea {
+      font-family: 'Rubik', sans-serif;
+      font-size: 20px;
+      font-weight: bold;
+      border: none;
+      border-top: 1px solid #31688a;
+      width: 500px;
+      padding: 10px;
+      height: 200px;
+      outline: none;
+      resize: none;
+      word-break: break-all;
+      overflow-y: auto;
+      cursor: default;
+}
+
+.columns h2 {
+      padding: 10px;
+      font-family: 'Oswald', sans-serif;
+      width: max-content;
+      height: 50px;
+      border: none;
+      border-radius: 9px;
+      width: 500px;
+      z-index: -1;
+      cursor: default;
+      text-transform: capitalize;
+}
+
+.columns h2:hover, .columns textarea:hover {
+      color: #31688a;
+}
+
+.columns button {
+      margin-top: 3px;
+      float: right;
+      z-index: 1;
+}
